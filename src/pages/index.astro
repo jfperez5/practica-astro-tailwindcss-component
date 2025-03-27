@@ -1,11 +1,18 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro';
+import Card01 from '@/components/Card01.astro';
+import Card02 from '@/components/Card02.astro';
+import Card03 from '@/components/Card03.astro';
+import Tarjeta from '@/components/Tarjeta.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+
 ---
 
 <Layout>
-	<Welcome />
+	<main class="min-h-screen flex flex-col ">
+		<!-- <Card03 />
+		<Card01 />
+		<Card02 /> -->
+		<Tarjeta/>
+	</main>
 </Layout>
